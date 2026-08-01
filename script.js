@@ -1,5 +1,11 @@
 function shortcut(s1, s2) {
   // your code here
+	if(s1.isEmpty() || s2.isEmpty){
+		return ""
+	}else{
+		retun s1[0]+s2[0];
+	}
+	
 }
 
 // Do not change the code below.
